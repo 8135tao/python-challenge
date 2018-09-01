@@ -1,0 +1,3 @@
+"Financial Analysis"
+---------------------------
+"86 months total" "38382578 total" "1926159 max change at Feb-2012" "-2196167 min change at Sep-2013" "-1165078.8953488371 avg change"
