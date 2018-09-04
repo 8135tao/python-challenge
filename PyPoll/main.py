@@ -22,6 +22,17 @@ vote_count_by_cand = poll_df["Candidate"].value_counts(ascending = False)
 list_votes= [str("{:.2f}%".format(100*vote_count_by_cand[i]/vote_count)) + " (" + str(vote_count_by_cand[i]) +")"
  for i in range(0,len(vote_count_by_cand)) ]
 
+#Alternatively, we can get the vote_count by candidate without using pandas
+#csvreader = csv.reader(open(open_bank_csv, newline=''), delimiter=',')
+# csv_header = next(csvreader)    
+# poll_data = list(csvreader)
+# my_dict={}
+# for lists in poll_data:
+#     if lists[2] not in my_dict:
+#         my_dict[lists[2]] = 1
+#     else:
+#         my_dict[lists[2]] += 1 
+
 #print election stats
 print("Election results")
 print("-----------------------------------\n")
